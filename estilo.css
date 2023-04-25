@@ -1,0 +1,76 @@
+/*imporando a fonte do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+/*alterando a cor do fundo com gradient*/
+body { 
+  background:linear-gradient(to right, aqua, black);
+
+}
+
+/* estilizando a class container */
+.container{
+  width:100%; /*largura*/
+  height: 900px; /*Altura*/
+  margin:auto; /*margin automatica top, left, rigth, bottom*/
+
+}
+
+#menu{  /*estilizando o  menu*/
+  width: 100%; /*largura*/
+  height: 150px; /*Altura*/
+  text-align: center; /*texto centralizado*/
+}
+
+#menu ul li{ /*estilizando o  ul li do menu*/
+  list-style: none; /* tira as bolinhas do ul*/
+  display: inline; /* deixa o texto um do lado do outro em linha*/
+  padding: 4px; /*espaçamento entre as palavras*/
+}
+
+#menu ul li a{  /*estilizando o  ul li e o a do menu*/
+  font-family: Arial; /* tipo de fonte do texto*/
+  font-size: 20px; /*tamanho da fonte*/
+  color:#fff; /*cor da fonte*/
+  text-decoration: none; /*tira o sublinhado da palavra*/
+}
+
+#menu ul li a:hover{  /*estiliza o hover efeito de passar o mouse e muda a cor do fundo*/
+  background-color: aqua; /*cor de fundo do hover*/
+  color:black; /*cor da fonte do hover*/
+  padding: 4px;   /*espaçamento entre as palavras*/
+ 
+}
+
+
+h1, h2, h3 {    /*estilizando tudo que for h1,h2, e h3*/
+  font-family: 'Pacifico', cursive;   /* tipo fonte do texto*/
+  font-weight: normal;  /* deixa o texto negrito*/
+  text-align: center; /* centraliza o texto*/
+  
+}
+
+p{ /* estilizando paragrafo*/
+  font-size: 40px; /* tamanho da fonte*/
+  color:white; /* cor da fonte*/
+  text-align: center; /* centraliza o texto*/
+}
+
+footer{  /* estilizando o footer(rodape) da página*/
+  width: 100%; /* largura da página*/
+  height: 100px;/* altura da página*/
+  background-color: aquamarine; /* cor de fundo */
+  text-align: center; /* centraliza o texto*/
+  line-height: 50px; /* pula linha de 50px*/
+
+}
+
+
+#login{ /* estilizando o id login*/
+  width: 100px; /* largura da página*/
+  height: 70px; /* altura da página*/
+  background-color:chartreuse; /* cor de fundo */
+  color:black; /* cor da fonte */
+  text-transform: uppercase; /* deixa o texto tudo maiusculo */
+  font-weight: bold; /*deixa o texto negrito */
+  margin-left: 45%; /* da um espaço de 45% da esquerda */
+}
